@@ -18,7 +18,7 @@
     "gh-pages": "^3.2.3"
   },
   "engines": {
-    "node": "16.x"
+    "node": "22.x"
   }
 }
 
