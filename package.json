@@ -1,9 +1,16 @@
 {
-<<<<<<< HEAD
-  "name": "weatherApp",
-  "version": "0.1.0",
+  "name": "WeatherApp",
+  "version": "1.0.0",
   "private": true,
-  "homepage": "https://Akankasha-3.github.io/WhetherApp",
+  "homepage": "https://Akankasha-3.github.io/WeatherApp",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -13,30 +20,22 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-=======
-  "name": "WeatherApp",
-  "version": "1.0.0",
-  "homepage": "https://Akankasha-3.github.io/Weather-App",
->>>>>>> fa6ccc5851065048b2cd5bc4c158190abb0614b7
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build"
-  },
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "^5.0.0"
-  },
   "devDependencies": {
     "gh-pages": "^3.2.3"
   },
   "engines": {
     "node": "16.x"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
-
