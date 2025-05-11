@@ -2,7 +2,7 @@
   "name": "WeatherApp",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Akankasha-3.github.io/WeatherApp",
+  "homepage": "https://Akankasha-3.github.io/Weather-App",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
